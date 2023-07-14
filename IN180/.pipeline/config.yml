@@ -1,1 +1,13 @@
-//pipeline steps configuration
+steps:
+  integrationArtifactDeploy:
+    cpiApiServiceKeyCredentialsId: integration-suite-yzvp58s8
+    integrationFlowId: I570115-flow4
+  integrationArtifactGetMplStatus:
+    cpiApiServiceKeyCredentialsId: integration-suite-yzvp58s8
+    integrationFlowId: I570115-flow4
+  integrationArtifactUpload:
+    cpiApiServiceKeyCredentialsId: integration-suite-yzvp58s8
+    integrationFlowId: I570115-flow4
+    integrationFlowName: I570115-flow4
+    packageId: I570115 Playground
+    filePath: I570115-flow4.zip
